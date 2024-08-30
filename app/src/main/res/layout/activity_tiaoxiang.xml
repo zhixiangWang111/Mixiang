@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/re">
+
+    <Spinner
+        android:id="@+id/spinnerCategory1"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory2"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/spinnerCategory1" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="146dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/spinnerCategory2"
+        android:layout_marginTop="20dp"
+        android:text="确定" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择您需要的材料"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        >
+
+    </TextView>
+
+</RelativeLayout>

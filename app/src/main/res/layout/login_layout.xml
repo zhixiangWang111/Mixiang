@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/login_layout.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".LoginActivity"
+    android:layout_gravity="center"
+    android:background="@drawable/re">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="用户名"
+            android:textColor="#773D3D"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="0dp"
+            android:layout_height="88dp"
+            android:layout_weight="1"
+            android:hint="请输入用户名" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="密码"
+            android:textColor="#773D3D"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="121dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            android:hint="请输入密码"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="登录"
+        android:textColor="#8BC34A"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="#8BC34A"
+        android:text="注册" />
+
+    <ImageView
+        android:id="@+id/imgView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="90dp">
+
+    </ImageView>
+
+</LinearLayout>
